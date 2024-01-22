@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259324bddf46cd5438e12dc1be132363, type: 3}
+  m_Name: Test Email 4
+  m_EditorClassIdentifier: 
+  subject: Jayson shared a video
+  username: Jayson
+  email: jayson.14@gmail.com
+  content: 'Jayson (jayson.14@gmail.com) has shared the following item:
+
+
+    [VID202307303454.mp4](https://www.dropbox.com/s/71ocsjpwily6flf/VID202307303454.mp4.exe?dl=0)
+
+
+    If
+    you don''t want to receive files from this person, block the sender from Drive'
+  isPhishing: 1

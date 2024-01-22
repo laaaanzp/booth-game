@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259324bddf46cd5438e12dc1be132363, type: 3}
+  m_Name: Test Email
+  m_EditorClassIdentifier: 
+  subject: Your iCloud storage is full
+  username: iCloud
+  email: noreply@email.apple.com
+  content: "Hello {name},\r\nYour iCloud storage is full. You have exceeded your
+    storage plan and this means that your documents, contacts and device data are
+    no longer being backed up to iCloud. Your photos and videos are also not being
+    uploaded to iCloud Photos. iCloud Drive and iCloud-enabled apps are not being
+    updated across your devices.\r\nTo keep using these iCloud services, you [need
+    to upgrade to iCloud+](https://setup.icloud.com/email/prefs/storage?path=STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN)
+    or reduce the amount of storage that you are using.\r\n\n[Upgrade to iCloud+
+    with 50 GB for \u20B149.00 per month\r](https://setup.icloud.com/email/prefs/storage?path=STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN)\n\nSincerely,\r\nThe
+    iCloud Team "
+  isPhishing: 0

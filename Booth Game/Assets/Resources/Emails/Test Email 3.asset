@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259324bddf46cd5438e12dc1be132363, type: 3}
+  m_Name: Test Email 3
+  m_EditorClassIdentifier: 
+  subject: Someone tried to login with your google account
+  username: Google
+  email: no-reply@google.support
+  content: "Someone just used your password to try to sign in to your Google Account.\r\n\n 
+    Information:\r\n  Monday, January 4, 2024 at 4:51:43 AM GMT+08:00\n  Slatina,
+    Romania\r\n  Firefox browser\r\n\nGoogle stopped this sign-in attempt. You should
+    change your password immediately [here](http://myaccountgoogle.com-securitysettingpage.ml-security.org/signonoptions/)"
+  isPhishing: 1

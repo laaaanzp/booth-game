@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259324bddf46cd5438e12dc1be132363, type: 3}
+  m_Name: Test Email 6
+  m_EditorClassIdentifier: 
+  subject: Login alert for Messenger Desktop
+  username: Facebook
+  email: security.facebook@gmail.com
+  content: 'Hi {name},
+
+
+    We noticed an unusual login from a device or location
+    you don''t usually use. Was this you?
+
+
+    Additional Information:
+
+    January 
+    3, 2023 at 11:46 PM
+
+    Near Taguig, Philippines
+
+    Messenger Desktop
+
+
+    [Review
+    Login](https://www.securty--facebook.com/password_protect)'
+  isPhishing: 1
